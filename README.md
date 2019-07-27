@@ -1,4 +1,5 @@
-#Laravel-mix standalone on windows
+Laravel-mix standalone on windows
+---------------------------------------------
 
 projek ini merupakan starter laravel-mix standalone (tanpa menggunakan core laravel)
 
