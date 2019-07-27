@@ -1,7 +1,6 @@
-Laravel-mix standalone on windows
+Simple Portofolio layout
 ---------------------------------------------
 
-projek ini merupakan starter laravel-mix standalone (tanpa menggunakan core laravel)
+Simple portofofolio layout based on Bootstrap 4, with laravel-mix
 
-panduan artikel:
-https://medium.com/@rudinesia/cara-install-laravel-mix-tanpa-laravel-standalone-laravel-mix-fc532aee6f15?source=your_stories_page---------------------------
+
