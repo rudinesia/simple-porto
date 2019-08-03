@@ -14,7 +14,9 @@ let mix = require('laravel-mix');
 mix
 	.js('src/js/app.js', 'dist/')
 	.sass('src/sass/app.scss', 'dist/')
-	// .sass('node_modules/bootstrap/scss/bootstrap.scss', 'dist/')
+	.options({
+		purifyCss: true
+	})
 	.browserSync({
  		proxy: 'http://localhost:81/template/portofolio-template',
 		files: ['*.html', '*.php', '/src/sass/**/*.css', '/src/js/**/*.js']
