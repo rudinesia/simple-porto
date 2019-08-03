@@ -12,14 +12,15 @@ let mix = require('laravel-mix');
  */
 
 mix
+	.setPublicPath('dist')
 	.js('src/js/app.js', 'dist/')
 	.sass('src/sass/app.scss', 'dist/')
 	.options({
-		purifyCss: true
+	  purifyCss: false
 	})
 	.browserSync({
  		proxy: 'http://localhost:81/template/portofolio-template',
-		files: ['*.html', '*.php', '/src/sass/**/*.css', '/src/js/**/*.js']
+		files: ['dist/*.html', 'dist/*.php', 'src/sass/**/*.css', 'src/js/**/*.js']
  	});
 
 // Full API
